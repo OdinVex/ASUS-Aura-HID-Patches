@@ -10,6 +10,8 @@ The following need to be patched (someday) but I haven't gotten around to it:
 
 I manually re-write the software after resizing the code section. Because the DLLs are compiled by ASUS with code-relocation enabled, I manually resize the relocation table and add manual entries into it to adjust new pointers to proper API calls. Eg I make my patches correctly.
 
-If you still get crashes then another DLL is responsible but you should still use these too because any non-patched DLL WILL be a problem anyway! Create an Issue and attach any log you can.
+If you still get crashes then another DLL is responsible but you should still use these too because any non-patched DLL WILL be a problem anyway! Create an Issue and attach any log you can. (Best to try to start the LightingService, attach a debugger and capture all DebugString output while then starting ASUS Aura! This would be a golden logging capture.)
 
 Currently patching for: 1.07.71.
+
+Quite frankly, ASUS needs to rewrite the entire AURA software and interfaces. I might go through the effort myself...
