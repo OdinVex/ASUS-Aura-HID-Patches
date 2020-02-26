@@ -16,4 +16,4 @@ Currently patching for: 1.07.71.
 
 Quite frankly, ASUS needs to rewrite the entire AURA software and interfaces. I might go through the effort myself...
 
-*EDIT*: 1.07.79 suffers the same damn problem. ASUS is still assuming GetCaps always returns 0 for SUCCESS. ****ing RETARDS.
+*EDIT*: 1.07.79 suffers the same damn problem. ASUS is still assuming HID GetCaps always returns 0 for SUCCESS. ****ing RETARDS.
